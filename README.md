@@ -1,6 +1,6 @@
-# Negão do Whatsapp
+# SunBeaten
 
-A minimal dark portfolio, published at https://negaodowhatsapp.github.io/.
+A minimal dark portfolio, published at https://sunbeaten.github.io/.
 
 Plain HTML and CSS. No dependencies or build step.
 
