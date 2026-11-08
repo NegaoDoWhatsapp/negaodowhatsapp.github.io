@@ -1,47 +1,71 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="color-scheme" content="dark">
-    <meta name="theme-color" content="#111313">
-    <meta name="description" content="SunBeaten — projects and experiments.">
-    <title>SunBeaten — Projects</title>
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <main>
-      <header>
-        <a class="wordmark" href="./" aria-label="SunBeaten, home">SunBeaten<span aria-hidden="true">.</span></a>
-        <a class="github" href="https://github.com/SunBeaten">GitHub <span aria-hidden="true">↗</span></a>
-      </header>
-
-      <section class="intro" aria-labelledby="intro-title">
-        <p class="eyebrow">A small corner of the internet</p>
-        <h1 id="intro-title">SunBeaten</h1>
-        <p class="description">A home for my projects and experiments.</p>
-      </section>
-
-      <section class="projects" aria-labelledby="projects-title">
-        <h2 id="projects-title">Projects</h2>
-        <!-- Replace this empty state with project links as projects are published. -->
-        <div class="empty-state">
-          <span class="status-dot" aria-hidden="true"></span>
-          <p>Nothing here yet. Projects will land here soon.</p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#080807">
+  <meta name="description" content="SunBeaten — a home for code, curiosity, and things made along the way.">
+  <meta property="og:title" content="SunBeaten — Code & Curiosity">
+  <meta property="og:description" content="Projects, experiments, and things made along the way.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sunbeaten.github.io/">
+  <meta property="og:image" content="https://sunbeaten.github.io/assets/andarilho.webp">
+  <title>SunBeaten — Code & Curiosity</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="preload" href="assets/andarilho.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page">
+    <header class="masthead">
+      <a class="wordmark" href="./" aria-label="SunBeaten, home">
+        <svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M5 24 16 5l11 19H5Z" stroke="currentColor" stroke-width="1.5"/><path d="M10 24v3m6-3v3m6-3v3M11 17h10" stroke="currentColor" stroke-width="1.5"/></svg>
+        SunBeaten
+      </a>
+      <nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="https://github.com/SunBeaten">GitHub <span aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="little-cross" aria-hidden="true">✳</span> A personal collection</p>
+          <h1 id="hero-title" aria-label="SunBeaten">Sun<span>Beaten<span class="period">.</span></span></h1>
+          <p class="hero-note">Code, curiosity<br>&amp; a little dust.</p>
+          <p class="description">Projects, experiments, and things<br class="desktop-break"> made along the way.</p>
+          <a class="text-link" href="#projects">Explore the work <span aria-hidden="true">↓</span></a>
         </div>
-        <!-- Example project entry (replace the URL, title, and description):
+        <figure class="portrait">
+          <img src="assets/andarilho.webp" width="1254" height="1254" fetchpriority="high" alt="A mysterious wanderer in a frayed straw hat and wrapped cloak, rendered in warm ochre woodcut strokes on black.">
+          <figcaption><span lang="pt-BR">Andarilho do Sol</span><span class="caption-rule" aria-hidden="true"></span><span>The sun wanderer</span></figcaption>
+        </figure>
+      </section>
+      <div class="interlude" aria-hidden="true"><span>Code &amp; curiosity</span><span class="ornament">✳</span><span>Made along the way</span></div>
+      <section class="projects" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">The collection</p><h2 id="projects-title">Things taking shape<span>.</span></h2></div>
+          <span class="section-index" aria-hidden="true">01 —</span>
+        </div>
+        <!-- Replace this empty state with real project entries when publishing the first project. -->
+        <div class="empty-state">
+          <span class="empty-mark" aria-hidden="true">↳</span>
+          <div><h3>A blank page, for now.</h3><p>The first projects will find their home here.<br>Until then, follow the trail on GitHub.</p></div>
+          <a class="text-link" href="https://github.com/SunBeaten">Visit GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <!-- Copy this entry for each real project, replace its content, and remove the comment markers:
         <a class="project" href="https://github.com/SunBeaten/REPOSITORY">
-          <div>
-            <h3>Project name</h3>
-            <p>A short description of the project.</p>
-          </div>
-          <span aria-hidden="true">↗</span>
+          <span class="project-number">01</span>
+          <div><h3>Project name</h3><p>A short description of the project.</p></div>
+          <span class="project-arrow" aria-hidden="true">↗</span>
         </a>
         -->
       </section>
-
-      <footer>SunBeaten</footer>
     </main>
-  </body>
+    <footer>
+      <a class="footer-brand" href="./">SunBeaten<span>.</span></a>
+      <p>Still wandering. Still making.</p>
+      <a href="https://github.com/SunBeaten">GitHub <span aria-hidden="true">↗</span></a>
+    </footer>
+  </div>
+</body>
 </html>
