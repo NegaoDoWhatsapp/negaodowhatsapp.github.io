@@ -16,7 +16,7 @@ Update `style.css` to change the appearance.
 ## Artwork and palette
 
 `assets/wanderer.webp` is an optimized copy of the approved wanderer
-artwork, with no sun or trees in the background. The portrait is also used for
+artwork, with the rope removed and no sun or trees in the background. The portrait is also used for
 `assets/favicon.png`. The original artwork was created with the built-in image
 generation tool and selected by the account owner.
 
